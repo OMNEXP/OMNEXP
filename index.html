@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Esrom Cattaneo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+<body>
+<!-- Menu  -->
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="https://github.com/EsromTech/">GitHub Page</a></li>
+  <li><a href="#donate">Donate</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<!-- header -->
+<center>
+<div class="header">
+</div>
+<img src="logo.png" width="300" >
+
+<!-- JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#flip_osprey").click(function(){
+    $("#panel_osprey").slideToggle("slow");
+  });
+});
+
+
+
+
+</script>
+
+<div id="flip">All Build's By Me</div>
+<div id="panel">
+
+         Motorola
+        <!-- osprey -->
+                <ul>
+                  
+				  <li id="flip_osprey"><a href="#osprey" class="device"><span>Moto G 2015</span></a></li>
+				 
+				  <div id="panel_osprey">
+						<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Type</th>
+      <th>ROM Name</th>
+      <th>Build Download</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+    <tr>
+      <td><a href="osprey.html">osprey</a><br/><small class="md5"></small></td>
+      <td>Official</td>
+      <td>AOKP Nougat</td>
+      <td>
+        <b>Download</b>:
+        <a href="http://xfer.aokp.co/?developer=AOKP&folder=osprey">aokp_osprey_nougat_nightly</a>
+        <br />
+        <small class="md5">
+          <a href="https://forum.xda-developers.com/2015-moto-g/development/rom-android-kang-project-moto-g-2015-t3534589">Thread XDA</a>
+        </small>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+				  </div>
+				  
+				  
+                </ul>
+
+
+
+</div>
+<!-- donate -->
+<div id="donate">
+ <footer>
+<h3>Can you pour me some coffee?</h3>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2RA2Z2Y6NZTCS">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</center>
+  </footer>
+</div>
+
+</body>
+</html>	
